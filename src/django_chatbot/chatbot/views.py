@@ -14,7 +14,7 @@ from django.utils import timezone
 
 client = OpenAI(
     # defaults to os.environ.get("OPENAI_API_KEY")
-    api_key="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",
+    api_key="API_KEY",
 )
 
 def ask_openai(message):
