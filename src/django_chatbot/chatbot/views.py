@@ -9,9 +9,6 @@ from .models import Chat
 
 from django.utils import timezone
 
-#API_KEY = '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'
-#OPENAI_API_KEY = API_KEY
-
 client = OpenAI(
     # defaults to os.environ.get("OPENAI_API_KEY")
     api_key="API_KEY",
